@@ -253,6 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video_4k.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video_weixin.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_weixin_video_3a.so \
+    vendor/xiaomi/twolip/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_zsl_preview_3a.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_zsl_video_3a.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_4k_preview_3a.so \
@@ -345,6 +346,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video_weixin.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_bokeh_preview_3a.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_preview_3a.so \
+    vendor/xiaomi/twolip/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_video_3a.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_face_video_3a.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_fullsize_preview_3a.so \
@@ -616,7 +618,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
-    vendor/xiaomi/twolip/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
-
+    vendor/xiaomi/twolip/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/xiaomi/twolip/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so 
 PRODUCT_PACKAGES += \
     FingerprintExtensionService
